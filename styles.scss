@@ -9,6 +9,23 @@ body{
   font-family: "Source Sans 3", sans-serif;
 }
 
+.callout {
+  font-size: 1.15em;
+}
+
+/* credit to Google Gemini*/
+
+.callout .callout-title-container {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.callout .callout-icon::before {
+  height: 1.1rem !important;
+  width: 1.1rem !important;
+  background-size: 1.1rem 1.1rem !important;
+}
+
 h1 {
   text-transform: uppercase;
   font-size: 2rem;
@@ -18,3 +35,4 @@ h2 {
   text-transform: uppercase;
   font-size: 1rem;
 }
+
