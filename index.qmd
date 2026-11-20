@@ -1,11 +1,21 @@
 ---
-title: "Data 3301"
+title: "DATA 3301: Introduction to Data Science"
+subtitle: "**Spring 2027** &middot; Sections S01/S02 & S03/S04"
+fontsize: 14pt
 ---
 
-This is a Quarto website.
+Welcome to the course site for DATA 3301 at Cal Poly, with Dr. Ethan P. Marzban! This page contains information on Sections S01/S02 and S03/S04, in Spring 2027.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## {{< fa chalkboard-user >}} Instructor 
 
-```{r}
-1 + 1
-```
+|[**name:**]{.smallcaps} | Dr. Ethan P. Marzban (he/him) |
+|:----|:----------------------|
+| [**email:**]{.smallcaps} | [emarzban@calpoly.edu](mailto:emarzban@calpoly.edu) |
+|[**office:**]{.smallcaps} | 025-111 |
+
+Please feel free to refer to as "Dr. Ethan."
+
+## {{< fa building-columns >}} Lecture/Lab Information 
+
+-   **Lecture S01:** MW 3 - 4:20 pm in 010-0225 | **Lab S02:** TR 3 - 4:20 pm in 038-122
+-   **Lecture S03:** MW 4:30 - 5:50 pm in 010-0225 | **Lab S04:** TR 4:30 - 5:50 pm in 038-122

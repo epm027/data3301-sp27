@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data 3301</title>
+<title>DATA 3301: Introduction to Data Science – DATA 3301</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -25,41 +25,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -80,7 +45,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e53f39c533b39ad863aebcd2cc935fe0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -110,7 +77,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -121,7 +87,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Data 3301</span>
+    <span class="navbar-title">DATA 3301</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -149,15 +115,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206368616c6b626f6172642d75736572203e7d7d-instructor" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206368616c6b626f6172642d75736572203e7d7d-instructor" class="nav-link active" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206368616c6b626f6172642d75736572203e7d7d-instructor"><i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> Instructor</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206275696c64696e672d636f6c756d6e73203e7d7d-lecturelab-information" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206275696c64696e672d636f6c756d6e73203e7d7d-lecturelab-information" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206275696c64696e672d636f6c756d6e73203e7d7d-lecturelab-information"><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> Lecture/Lab Information</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data 3301</h1>
+<h1 class="title">DATA 3301: Introduction to Data Science</h1>
+<p class="subtitle lead"><strong>Spring 2027</strong> · Sections S01/S02 &amp; S03/S04</p>
 </div>
 
 
@@ -174,16 +148,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<p>Welcome to the course site for DATA 3301 at Cal Poly, with Dr.&nbsp;Ethan P. Marzban! This page contains information on Sections S01/S02 and S03/S04, in Spring 2027.</p>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206368616c6b626f6172642d75736572203e7d7d-instructor" class="level2">
+<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206368616c6b626f6172642d75736572203e7d7d-instructor"><i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> Instructor</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><span class="smallcaps"><strong>name:</strong></span></th>
+<th style="text-align: left;">Dr.&nbsp;Ethan P. Marzban (he/him)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><span class="smallcaps"><strong>email:</strong></span></td>
+<td style="text-align: left;"><a href="mailto:emarzban@calpoly.edu">emarzban@calpoly.edu</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><span class="smallcaps"><strong>office:</strong></span></td>
+<td style="text-align: left;">025-111</td>
+</tr>
+</tbody>
+</table>
+<p>Please feel free to refer to as “Dr.&nbsp;Ethan.”</p>
+</section>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206275696c64696e672d636f6c756d6e73203e7d7d-lecturelab-information" class="level2">
+<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206275696c64696e672d636f6c756d6e73203e7d7d-lecturelab-information"><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> Lecture/Lab Information</h2>
+<ul>
+<li><strong>Lecture S01:</strong> MW 3 - 4:20 pm in 010-0225 | <strong>Lab S02:</strong> TR 3 - 4:20 pm in 038-122</li>
+<li><strong>Lecture S03:</strong> MW 4:30 - 5:50 pm in 010-0225 | <strong>Lab S04:</strong> TR 4:30 - 5:50 pm in 038-122</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
