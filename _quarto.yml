@@ -7,8 +7,9 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: "{{< fa house >}} Home"
+      - href: Pages/syllabus.qmd
+        text: "{{< fa circle-info >}} Syllabus"
 
 format:
   html:
