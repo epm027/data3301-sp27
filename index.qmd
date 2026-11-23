@@ -4,7 +4,7 @@ subtitle: "**Spring 2027** &middot; Sections S01/S02 & S03/S04"
 fontsize: 14pt
 ---
 
-Welcome to the course site for DATA 3301 at Cal Poly, with Dr. Ethan P. Marzban! This page contains information on Sections S01/S02 and S03/S04, from Spring 2027.
+Welcome to the course site for DATA 3301 at Cal Poly, with Dr. Ethan P. Marzban! This page contains information for Sections S01/S02 and S03/S04, from Spring 2027.
 
 ## {{< fa chalkboard-user >}} Instructor
 
