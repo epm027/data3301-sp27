@@ -1,5 +1,6 @@
 ---
 title: "About"
+fontsize: 14pt
 ---
 
 About this site
