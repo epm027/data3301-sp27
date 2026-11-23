@@ -9,7 +9,7 @@ Welcome to the course site for DATA 3301 at Cal Poly, with Dr. Ethan P. Marzban!
 ## {{< fa chalkboard-user >}} Instructor
 
 | [**name:**]{.smallcaps} | Dr. Ethan P. Marzban (he/him) |
-|:---------------|:-------------------------------------------------------|
+|-----------------:|:-----------------------------------------------------|
 | [**email:**]{.smallcaps} | [emarzban\@calpoly.edu](mailto:emarzban@calpoly.edu) |
 | [**office:**]{.smallcaps} | 025-111 |
 
@@ -17,14 +17,242 @@ Please feel free to refer to as "Dr. Ethan."
 
 ## {{< fa building-columns >}} Lecture/Lab Information
 
+|   | **Lecture** | **Lab** |
+|:----------------:|:-------------------------:|:-------------------------:|
+| **S01/S02** | **S01:** MW 3 - 4:20 pm in 010-0225 | **S02:** MW 3 - 4:20 pm in 038-122 |
+| **S03/S04** | **S03:** MW 4:30 - 5:20 pm in 010-0225 | **S04:** MW 4:30 - 5:20 pm in 038-122 |
 
-| | **Lecture** | **Lab** |
-|:---:|:-------:|:-------:|
-| **S01/S02** | **S01:** MW 3 - 4:20 pm in 010-0225 |  **S02:** MW 3 - 4:20 pm in 038-122 |
-| **S03/S04** | **S03:** MW 4:30 - 5:20 pm in 010-0225 |  **S04:** MW 4:30 - 5:20 pm in 038-122 |
-
-::: {.callout-caution}
+::: callout-caution
 ## Important
 
 Please only attend the lecture and lab combination you are officially registered for, as classroom seating is very limited.
 :::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+[**Lectures**]{style="text-transform:uppercase"}
+
+Lectures will primarily be dedicated to learning and practicing conceptual topics, with some computing interspersed. 
+:::
+
+
+::: {.column width="50%"}
+[**Labs**]{style="text-transform:uppercase"}
+
+Labs will primarily be dedicated to developing computing prowess, and will be more computer-focused than lectures.
+:::
+
+::::
+
+
+## {{< fa map >}} Course Information
+
+The course description for DATA 3301, taken from the [official course catalog](https://catalog.calpoly.edu/science-mathematics/statistics/#courseinventory){target="_blank"} is:
+
+> Introduction to the field of data science and associated tools and libraries. Algorithmic machine learning and modeling, types of data, data wrangling, data summary, validating and analyzing results, visualization, and applications of data science. 3 lectures, 1 laboratory. Formerly DATA 301.
+
+The prerequisites for this course are:
+
+-   {{< fa cube >}} **Linear Algebra** (MATH 241/206/1151)
+-   {{< fa code >}} **Basic Programming** (CSC 1001)
+-   {{< fa chart-bar >}} **Statistics** (STAT 217/217/1110/301/1510/312/3210)
+
+Indeed, this course is designed to be a somewhat rigorous introduction to data science, geared toward students with some intermediate experience with mathematics, computer science, and statistics, but no formal background in Data Science.
+
+### Learning Objectives
+
+By the end of this course, you should be able to:
+
+-   Articulate the purpose of data science including application areas, disciplines that use data science,and current challenges in data science.
+-   Identify, import, manage, clean, and utilize different types of data used in data science.
+Use techniques (classification, regression, clustering,and similarity based computations) to solve common data analytic tasks, and to perform appropriate data analyses with given data.
+-   Implement common techniques that can be specified algorithmically (e.g., classification, regression, clustering, association rule mining, similarity based computations) to solve common data analytic tasks,and to perform appropriate data analyses with given data.
+-   Create visual representations of data that explain the results of data analyses to customers/data owners through appropriate graphics and reports.
+-   Write data analytical workflows with a modern data science programming language and data science tools.
+-   Use linear algebra and calculus to explain the mathematical foundations behind algorithms that are fundamental to data science.
+-   Write efficient and well-documented code for descriptive and inferential statistics.
+
+
+
+## {{< fa book-open >}} Textbooks
+
+Because data science is a fairly broad field, there isn't a single textbook I feel encompasses everything I'd like to cover this semester. As such, I will periodically assign reading from the following open-source textbooks:
+
+-   [_**Veridical Data Science**_](https://vdsbook.com/){target="_blank"}, by Bin Yu and Rebecca Barter
+-   [_**Learning Data Science**_](https://learningds.org/intro.html){target="_blank"}, by Sam Lau, Joey Gonzalez, and Deb Nolan
+-   [_**Modern Data Science with R**_](https://mdsr-book.github.io/mdsr3e/){target="_blank"}, by Benjamin S. Bauer, Daniel T. Kaplan, and Nicholas J. Horton
+
+I will also periodically assign papers as readings; these will be linked from our course calendar.
+
+::: callout-note
+## Note
+
+A couple of the textbooks above use the R programming language. Please keep in mind, though, that **the official programming language for DATA 3301 will be Python.** 
+:::
+
+
+## {{< fa folder-open >}} Assessments
+
+I believe that learning data science is like learning a foreign language - the best and most effective way to learn is through repeated, daily exposure to the material. To that end, I like to structure my courses to include several smaller-stakes assessments (as opposed to fewer larger-stakes assessments). At first, it may seem a little overwhelming having so many different tasks - but, I hope you will soon see that each component is designed to be relatively short and to, again, foster daily exposure to the material.
+
+-   {{< fa code >}} **Lab Assignments:** every Tuesday and Thursday we'll meet in a **lab** setting. Each lab will have an associated **Lab Assignment**, which you must turn in by the **end of the day (11:59 pm)**.
+    -   Lab Assignments will typically be graded on completion.
+
+-   {{< fa pen-ruler >}} **Homework Assignments:** we will have periodic homework assignments throughout the semester; please see the course calendar for specific due dates.
+    -   Homework will be graded on a mix of completion and correctness.
+
+-   {{< fa file >}} **Exams:** we will have three exams in total: two midterms and one final. Make-up exams will NOT be administered, for any reasons. So, please plan accordingly!
+
+::: {.callout-important}
+## **Exam Dates**
+
+-   **Midterm 1:** TBD
+-   **Midterm 2:** TBD
+-   **Final Exam** TBD
+:::
+
+-   {{< fa laptop >}} **Projects:** there will be a total of 3 projects this quarter: **2 mini-projects, and one final project**. 
+    -   Mini-projects are slightly smaller in scope, and will ask you to apply different parts of the course.
+    -   The final project will be larger in scope, and will ask you to put together everything you learned in the course.
+    -   All projects (mini or final) will have required report and multimedia components. More details will be posted to the course website throughout the semester.
+
+
+## {{< fa percent >}} Final Course Grades
+
+Your final grade in the course will be computed according to the following scheme:
+
+| **Assessment** | **Weight** |
+|:-------|:-------|
+| Lab Assignments | 5\% |
+| Homework Assignments | 10\% |
+| Midterms | 30\% (15\% each) |
+| Final Exam | 20\% |
+| Mini-Projects | 20\% (10\% each) |
+| Final Project | 15\% |
+
+Your final letter grade will be issued using following cutoffs (note that I am using interval notation: [a, b)  means all numbers greater than or equal to a but less than (and not equal to) b) :
+
+:::: {.columns}
+
+
+::: {.column width="45%"}
+| **Grade** | **Course Percentage** |
+|:----|:----| 
+| **A+** | 100\% and instructor discretion |
+| **A** | [93, 100) |
+| **A--** | [90, 93) |
+| **B+** | [87, 90) |
+| **B** | [83, 87) |
+| **B--** | [80, 83) |
+:::
+
+::: {.column width="10%"}
+<!--Spacer-->
+:::
+
+::: {.column width="45%"}
+| **Grade** | **Course Percentage** |
+|:----|:----| 
+| **C+** | [77, 80) |
+| **C** | [73, 77) |
+| **C--** | [70, 73) |
+| **D+** | [67, 70) |
+| **D** | [63, 67) |
+| **D--** | [60, 63) |
+| **F** | <60\% |
+:::
+
+
+:::
+
+
+I have elected to adopt an uncurved grading scheme to eliminate any sense of "competition" among students; I highly encourage you all to collaborate with and uplift each other. Having said that, I will certainly consider adjusting the cutoffs at the end of the semester if necessary.
+
+
+
+## {{< fa gavel >}} Policies
+
+### Late Submissions / Life Happens
+
+I understand that life happens! However, to keep the course flowing at a steady pace, **I am unable to accept late submissions for any reason**. Instead, I offer a so-called **"Life Happens" policy,** where:
+
+-   Your lowest one homework score will be dropped
+-   Your lowest four lab assignment  will be dropped (kindly recall that late submissions will not be accepted, so missing a lab assignment deadline will count as one dropped lab assignment)
+-   The final exam can absorb the weight of your lowest midterm (if this benefits your overall grade)
+
+
+Kindly note that, in light of these policies, **no late submissions will be accepted for any component of the course** (including the course project). Additionally, as stated above, make-up exams will not be offered for any reasons; furthermore, failure to take all three exams (two midterms and a final) will result in a grade of "F" being administered. Finally, because projects will be completed in groups, I cannot offer extensions on any projects (mini or final), and cannot drop any of your project scores.
+
+
+::: callout-note
+## Note
+
+Kindly note that sickness is covered under the Life Happens policy. That is, if you end up needing to miss a deadline due to sickness, that will just count as one of your drops as outlined in the Life Happens policy above.
+:::
+
+### Communication
+
+I believe we can all learn a great deal from each others questions! As such, **I will not reply to questions about course content over email** - instead, I've set up a collaborative Discussion Forum on Canvas. Please reserve email for ONLY personal questions (grades, absences, etc.) If you do need to email me, please adhered to the following:
+
+-   Please always include "DATA 3301" and your specific lecture section (S01 or S03) in your email subject line. 
+-   Please allow for a 48 business-hour response time to emails and discussion forum posts. 
+-   Please only email from your official Cal Poly email address - **I cannot reply to emails sent from personal non-Cal Poly email addresses.**
+-   Please keep all contact professional and respectful - thank you!
+
+
+### Collaboration and Academic Integrity
+
+Data science (as we will see) is an inherently collaborative field! However, there are limitations to collaboration.
+
+-   **Encouraged uses of collaboration:**
+    -   Forming study groups to practice course concepts
+
+-   **Allowable uses of collaboration:**
+    -   Discussing homework questions with friends, but ensuring everyone turns in their own work
+    
+-   **Prohibited uses of collaboration:**
+    -   Collaborating on exams
+    -   Trying to copy off someone else's work and/or trying to pass it off as your own
+
+-   **_Do not copy other people's work and try to pass it off as your own_**
+
+
+Failure to abide by these principles will be treated as academic misconduct. Anyone found guilty of academic misconduct will be reported to the Academic Senate, and will receive at minimum a failing grade on the assignment in question; further actions may also include failing the course, and marks being made on permanent records. Depending on the severity of the infraction, expulsion is also a possibility.
+Basically, don't cheat- please! If you're ever struggling with course material, please come talk to me. I truly am here for you, and want you to succeed.
+
+### AI Policy
+
+It is undeniable that the recent advances in Generative AI (GenAI) and Large Language Models (LLMs) like ChatGPT have reshaped the educational landscape. Indeed, when utilized properly, they can be an incredibly useful power. With that said, I would like to establish some clear ground rules with regards to the use of GenAI in this class:
+
+-   The use of AI on exams is strictly prohibited.
+-   The use of AI on other assignments is discouraged, but not prohibited - I only ask that if you use AI that you please **cite it**.
+    -   If it is found that you used AI without citing its use, this will be treated as academic misconduct.
+    
+    
+::: {.callout-caution}
+## **Important**
+
+Please be careful when using Generative AI. It is still a developing innovation, and can sometimes produce answers that are both inaccurate and unethical. Read all terms and conditions carefully, and ensure you understand (a) how the tool will give you an answer, and (b) what the tool will do with your data.
+
+:::
+
+
+## {{< fa clock >}} Disability Resource Center (DRC)
+
+If you have a disability, or otherwise require accommodations for this course, please reach out to the Disability Resource Center (DRC) ASAP to ensure your request(s) for accommodation can be processed. I ask that all requests be logged at least a week in advance, to ensure the system enough time to process. Please note that I cannot grant any requests for accommodations unless they come to me from the DRC directly.
+
+As a reminder: in addition to submitting a general accommodation letter (which I recommend getting submitted within the first week of the semester), you must submit separate requests for all individual assessments (exams, etc.) through the Accommodate portal. Please contact your Primary Access Specialist if you have further questions about that.
+
+
+## {{< fa computer >}} Technology Needs
+
+As a part of this course, you will need access to a laptop capable of connecting to the internet. If you do not currently possess such a laptop, the [Cal Poly Tech Rental service](https://calpoly.getconnect2.com/){target="_blank"} may be able to help you acquire one.
+
+
+## {{< fa star >}} Disclaimers
+
+-   The instructor reserves the right to modify this syllabus if he deems such modifications academically advisable. Such modifications, should they occur, will be announced publicly.
+-   Alternate testing for exams will only be offered for conflicts arising from university-sponsored sporting events (in which case documentation will be required). 
+    -   Such alternate testing must must take place on the same day as the scheduled date of the exam (i.e. alternate exams will not be administered on other days)
+
