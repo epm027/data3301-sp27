@@ -6,6 +6,20 @@ fontsize: 14pt
 
 # Course Calendar
 
+
+::: {.callout-important}
+## **Note**
+Lectures and Labs are designed with the intention that you complete the assigned reading _before_ arriving to class. You will likely feel lost if you do not do this!
+:::
+
+::: {.callout-note}
+## **Textbook Abbreviations**
+
+-   **VDS** = [_**Veridical Data Science**_](https://vdsbook.com/){target="_blank"}, by Bin Yu and Rebecca Barter
+-   **LDS** = [_**Learning Data Science**_](https://learningds.org/intro.html){target="_blank"}, by Sam Lau, Joey Gonzalez, and Deb Nolan
+-   **MDSR** = [_**Modern Data Science with R**_](https://mdsr-book.github.io/mdsr3e/){target="_blank"}, by Benjamin S. Bauer, Daniel T. Kaplan, and Nicholas J. Horton
+:::
+
 ```{r setup, include = F}
 library(googlesheets4)
 library(gt)

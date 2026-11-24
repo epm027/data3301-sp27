@@ -4,7 +4,7 @@
     "href": "Pages/calendar.html",
     "title": "DATA 3301: Introduction to Data Science",
     "section": "",
-    "text": "Course Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nREADING\nLECTURE\nLAB\nHOMEWORK\n\n\n\n\n1\nMon, Jan 25\nIntro to Data Science / Data Semantics\n Course Syllabus  LDS 1  VDS 2 & 2.1\n Lecture 01 Slides\n Lab 01: Working with Pandas\n Homework 01\n\n\n\n\nWed, Jan 27\nData Structures / Tidy Data\n LDS 6  VDS 4  MDSR 6\n Lecture 02 Slides\n Lab 02: Data Tidying"
+    "text": "Course Calendar\n\n\n\n\n\n\nNote\n\n\n\nLectures and Labs are designed with the intention that you complete the assigned reading before arriving to class. You will likely feel lost if you do not do this!\n\n\n\n\n\n\n\n\nTextbook Abbreviations\n\n\n\n\nVDS = Veridical Data Science, by Bin Yu and Rebecca Barter\nLDS = Learning Data Science, by Sam Lau, Joey Gonzalez, and Deb Nolan\nMDSR = Modern Data Science with R, by Benjamin S. Bauer, Daniel T. Kaplan, and Nicholas J. Horton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nREADING\nLECTURE\nLAB\nHOMEWORK\n\n\n\n\n1\nMon, Jan 25\nIntro to Data Science / Data Semantics\n Course Syllabus  LDS 1  VDS 2 & 2.1\n Lecture 01 Slides\n Lab 01: Working with Pandas\n Homework 01  Due 11:59pm Sunday February 7, 2027\n\n\n\n\nWed, Jan 27\nData Structures / Tidy Data\n Tidy Data, by Hadley Wickham  LDS 6  VDS 4  MDSR 6\n Lecture 02 Slides\n Lab 02: Data Tidying"
   },
   {
     "objectID": "index.html",
