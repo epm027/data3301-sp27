@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "Pages/calendar.html",
+    "href": "Pages/calendar.html",
+    "title": "DATA 3301: Introduction to Data Science",
+    "section": "",
+    "text": "Course Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nREADING\nLECTURE\nLAB\nHOMEWORK\n\n\n\n\n1\nMon, Jan 25\nIntro to Data Science / Data Semantics\n Course Syllabus  LDS 1  VDS 2 & 2.1\n Lecture 01 Slides\n Lab 01: Working with Pandas\n Homework 01\n\n\n\n\nWed, Jan 27\nData Structures / Tidy Data\n LDS 6  VDS 4  MDSR 6\n Lecture 02 Slides\n Lab 02: Data Tidying"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DATA 3301: Introduction to Data Science",
+    "section": "",
+    "text": "Welcome to the course site for DATA 3301 at Cal Poly, with Dr. Ethan P. Marzban! This page contains information for Sections S01/S02 and S03/S04, from Spring 2027.\nThis is just the landing page - please use the navbar at the top to navigate to the appropriate pages on this site.\n\n\n\n\n\n\nAnnouncements\n\n\n\n\n\nNovember 23: This class has not yet started - please check back for more updates!\n\n\nNovember 23: Placeholder\n\n\n\n  ← Previous\n  \n  Next →"
+  },
+  {
     "objectID": "Pages/syllabus.html",
     "href": "Pages/syllabus.html",
     "title": "DATA 3301: Introduction to Data Science",
@@ -75,12 +89,5 @@
     "title": "DATA 3301: Introduction to Data Science",
     "section": "",
     "text": "The instructor reserves the right to modify this syllabus if he deems such modifications academically advisable. Such modifications, should they occur, will be announced publicly.\nAlternate testing for exams will only be offered for conflicts arising from university-sponsored sporting events (in which case documentation will be required).\n\nSuch alternate testing must must take place on the same day as the scheduled date of the exam (i.e. alternate exams will not be administered on other days)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "DATA 3301: Introduction to Data Science",
-    "section": "",
-    "text": "Welcome to the course site for DATA 3301 at Cal Poly, with Dr. Ethan P. Marzban! This page contains information for Sections S01/S02 and S03/S04, from Spring 2027.\nThis is just the landing page - please use the navbar at the top to navigate to the appropriate pages on this site.\n\n\n\n\n\n\nAnnouncements\n\n\n\n\n\nNovember 23: This class has not yet started - please check back for more updates!\n\n\nNovember 23: Placeholder\n\n\n\n  ← Previous\n  \n  Next →"
   }
 ]

@@ -10,6 +10,8 @@ website:
         text: "{{< fa house >}} Home"
       - href: Pages/syllabus.qmd
         text: "{{< fa circle-info >}} Syllabus"
+      - href: Pages/calendar.qmd
+        text: "{{< fa calendar >}} Calendar"
 
 format:
   html:

@@ -1,0 +1,74 @@
+---
+title: "DATA 3301: Introduction to Data Science"
+subtitle: "**Spring 2027** &middot; Sections S01/S02 & S03/S04"
+fontsize: 14pt
+---
+
+# Course Calendar
+
+```{r setup, include = F}
+library(googlesheets4)
+library(gt)
+library(tidyverse)
+
+gs4_deauth()
+
+google_sheet <- read_sheet("https://docs.google.com/spreadsheets/d/1A8JUQ0_Po_nt4UKkrtOnRYzqRLaG7ii6IZ4yarcxi9k/edit?usp=sharing")
+```
+
+```{r}
+#| echo: False
+#| column: page
+
+google_sheet %>%
+  select(-Admin_Notes, -Day) %>%
+  mutate(Date = as.Date(Date)) %>%
+  gt() %>%
+  fmt_date(Date, date_style = 31) %>%
+  sub_missing(columns = c(Week, Reading, Topic, `Homework`, `Lecture`, `Lab`), missing_text = "") %>%
+  tab_style(
+    style = cell_borders(
+      sides = "right",
+      color = "#D3D3D3",
+      style = "solid"
+    ),
+    locations = cells_body(
+      columns = c(Date, Topic, Reading)
+    )
+  ) %>%
+  cols_align(
+    align = "center", 
+    columns = c(Week)
+  ) %>%
+  cols_align(
+    align = "right", 
+    columns = c(Date)
+  ) %>%
+  cols_align(
+    align = "left", 
+    columns = c(`Lecture`,
+                `Lab`
+                )
+  ) %>%
+  fmt_markdown(
+    columns = c(Week, Reading, Topic, `Lecture`, `Lab`, `Homework`)
+  ) %>%
+  cols_width(
+    Week ~ pct(4),
+    Date ~ pct(13), 
+    Reading ~ pct(14),
+    Topic ~ pct(15),
+    `Lecture` ~ pct(18),
+    `Lab` ~ pct(20),
+    `Homework` ~ pct(17)
+  ) %>%
+  cols_label_with(fn = function(x) {
+      janitor::make_clean_names(x, case = "title") %>%
+        toupper() %>%
+        stringr::str_replace_all("^|$", "**") %>%
+        md()
+    }) %>%
+  tab_options(
+    table.font.size = 15) %>%
+  opt_row_striping()
+```
