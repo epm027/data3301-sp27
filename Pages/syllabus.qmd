@@ -9,7 +9,7 @@ fontsize: 14pt
 ## {{< fa chalkboard-user >}} Instructor
 
 | [**name:**]{.smallcaps} | Dr. Ethan P. Marzban (he/him) |
-|---:|:---|
+|-----------------------------------:|:-----------------------------------|
 | [**email:**]{.smallcaps} | [emarzban\@calpoly.edu](mailto:emarzban@calpoly.edu) |
 | [**office:**]{.smallcaps} | 025-111 |
 
@@ -18,7 +18,7 @@ Please feel free to refer to as "Dr. Ethan."
 ## {{< fa building-columns >}} Lecture/Lab Information
 
 |   | **Lecture** | **Lab** |
-|:--:|:--:|:--:|
+|:----------------------:|:----------------------:|:----------------------:|
 | **S01/S02** | **S01:** MW 3 - 4:20 pm in 010-0225 | **S02:** MW 3 - 4:20 pm in 038-122 |
 | **S03/S04** | **S03:** MW 4:30 - 5:20 pm in 010-0225 | **S04:** MW 4:30 - 5:20 pm in 038-122 |
 
@@ -111,15 +111,15 @@ I believe that learning data science is like learning a foreign language - the b
 
 Your final grade in the course will be computed according to the following scheme:
 
-| **Assessment**       | **Weight**     |
-|:---------------------|:---------------|
-| Lab Assignments      | 5%             |
-| Participation.       | 5%             |
-| Homework Assignments | 10%            |
+| **Assessment**       | **Weight**       |
+|:---------------------|:-----------------|
+| Lab Assignments      | 5%               |
+| Participation        | 5%               |
+| Homework Assignments | 10%              |
 | Midterms             | 25% (12.5% each) |
-| Final Exam           | 20%            |
-| Mini-Projects        | 20% (10% each) |
-| Final Project        | 15%            |
+| Final Exam           | 20%              |
+| Mini-Projects        | 20% (10% each)   |
+| Final Project        | 15%              |
 
 Your final letter grade will be issued using following cutoffs (note that I am using interval notation: \[a, b) means all numbers greater than or equal to a but less than (and not equal to) b) :
 
